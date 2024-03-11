@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script>
+      function createList() {
+        var ulDomNode = document.createElement("ul");
+        var li1 = document.createElement("li");
+        li1.innerText = "Narsimha Reddy";
+        var li2 = document.createElement("li");
+        li2.innerText = "Sohan Reddy";
+        ulDomNode.appendChild(li1);
+        ulDomNode.appendChild(li2);
+        document.querySelector("body").appendChild(ulDomNode);
+         }
+    </script>
+  </head>
+  <body>
+    <div id="title">
+      <h2>DOM Node</h2>
+    </div>
+    <div class="title">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+        recusandae?
+      </p>
+    </div>
+    <button onclick="createh1()">Create DOM Node</button>
+    <button onclick="createList()">Create List</button>
+  </body>
+</html>
